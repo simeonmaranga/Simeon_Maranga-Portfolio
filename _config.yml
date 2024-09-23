@@ -8,36 +8,37 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Dr. Cristóbal Patiño - Personal Page"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cpatino358.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/cpatino358/cpatino358.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Cristobal_1.jpg"
+  name             : "Dr. Cristóbal Patiño"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Profesor Investigador de Tiempo Completo Titular B en la Facultad de Ingeniería de la Universidad Autónoma del Carmen." 
+  location         : "Carmen, Cam., México"
+  employer         : "Fac. de Ingeniería/UNACAR"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "cpatino@pampano.unacar.mx" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.mx/citations?hl=es&user=_miDjr4AAAAJ&view_op=list_works&sortby=pubdate"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  
+  orcid            : "https://orcid.org/0000-0002-1436-1259"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/C_Patino-Carachure/contributions"
+
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -292,7 +293,9 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+timezone: America/Mexico_City # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 
 # Plugins
